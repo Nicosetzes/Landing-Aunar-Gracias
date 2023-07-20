@@ -1,0 +1,21 @@
+.footer__M1 {
+  background-color: #333;
+  color: rgba(255, 255, 255, 0.25);
+  display: flex;
+  flex-flow: column wrap;
+  font-size: 0.875rem;
+  padding: 3rem 1rem;
+  & > div {
+    margin: 0 auto;
+    text-align: center;
+    @media only screen and (min-width: 992px) {
+      margin: 0 0 0.5rem 0;
+    }
+    &:nth-child(2) {
+      margin: 0;
+    }
+    a {
+      color: rgba(255, 255, 255, 0.25);
+    }
+  }
+}
