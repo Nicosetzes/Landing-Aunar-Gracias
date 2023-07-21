@@ -21,17 +21,17 @@
       max-width: 450px;
       padding: 0 1rem;
       @media only screen and (min-width: 576px) {
-        margin: auto auto auto 3rem;
+        margin: auto auto auto 6rem;
         padding: 0;
       }
       @media only screen and (min-width: 992px) {
-        margin: auto auto auto 6rem;
+        margin: auto auto auto 12rem;
       }
       @media only screen and (min-width: 1200px) {
-        margin: auto auto auto 9rem;
+        margin: auto auto auto 15rem;
       }
       @media only screen and (min-width: 1366px) {
-        margin: 12rem auto auto 15rem;
+        margin: 12rem auto auto 24rem;
       }
       p {
         margin: 0 0 1rem 0;
@@ -155,7 +155,7 @@
         @media only screen and (min-width: 1366px) {
           bottom: -600px;
           height: 800px;
-          width: 275px;
+          width: 300px;
         }
       }
     }

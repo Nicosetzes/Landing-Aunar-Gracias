@@ -80,23 +80,23 @@ select {
 }
 @media only screen and (min-width: 576px) {
   .main .main__hero .hero__content-main {
-    margin: auto auto auto 3rem;
+    margin: auto auto auto 6rem;
     padding: 0;
   }
 }
 @media only screen and (min-width: 992px) {
   .main .main__hero .hero__content-main {
-    margin: auto auto auto 6rem;
+    margin: auto auto auto 12rem;
   }
 }
 @media only screen and (min-width: 1200px) {
   .main .main__hero .hero__content-main {
-    margin: auto auto auto 9rem;
+    margin: auto auto auto 15rem;
   }
 }
 @media only screen and (min-width: 1366px) {
   .main .main__hero .hero__content-main {
-    margin: 12rem auto auto 15rem;
+    margin: 12rem auto auto 24rem;
   }
 }
 .main .main__hero .hero__content-main p {
@@ -270,7 +270,7 @@ select {
   .main .main__M1 .M1__content-main .svg-form {
     bottom: -600px;
     height: 800px;
-    width: 275px;
+    width: 300px;
   }
 }
 .main .main__M1 .M1__content-footer {
