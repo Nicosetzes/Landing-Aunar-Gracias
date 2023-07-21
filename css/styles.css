@@ -55,6 +55,13 @@ select {
   background-position: center;
   background-repeat: no-repeat;
   min-height: 800px;
+  position: relative;
+  z-index: 1000;
+}
+@media only screen and (min-width: 1366px) {
+  .main .main__hero {
+    min-height: 1000px;
+  }
 }
 .main .main__hero .hero__content-main {
   color: #fff;
@@ -121,7 +128,12 @@ select {
   margin: 0 0 1rem 0;
 }
 .main .main__M1 {
-  margin: 2rem 0 0 0;
+  margin: 6rem 0 0 0;
+}
+@media only screen and (min-width: 576px) {
+  .main .main__M1 {
+    margin: 3rem 0 0 0;
+  }
 }
 .main .main__M1 .M1__content-main {
   display: -webkit-box;
@@ -227,6 +239,26 @@ select {
   .main .main__M1 .M1__content-main .main__block p {
     margin: 0;
     text-align: left;
+  }
+}
+.main .main__M1 .M1__content-main .svg-form {
+  bottom: -350px;
+  height: 475px;
+  position: absolute;
+  right: 0;
+  width: 250px;
+  z-index: 1;
+}
+@media only screen and (min-width: 1200px) {
+  .main .main__M1 .M1__content-main .svg-form {
+    bottom: -375px;
+    height: 525px;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .main .main__M1 .M1__content-main .svg-form {
+    bottom: -700px;
+    height: 950px;
   }
 }
 .main .main__M1 .M1__content-footer {
