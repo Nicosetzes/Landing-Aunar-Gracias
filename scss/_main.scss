@@ -64,14 +64,15 @@
     }
   }
   .main__M1 {
-    margin: 6rem 0 0 0;
+    margin: 2rem 0 0 0;
     @media only screen and (min-width: 576px) {
-      margin: 3rem 0 0 0;
+      margin: 5rem 0 0 0;
     }
     .M1__content-main {
       display: flex;
       flex-flow: column wrap;
       margin: 0 0 4rem 0;
+      position: relative;
       @media only screen and (min-width: 992px) {
         flex-flow: row wrap;
         justify-content: space-evenly;
@@ -139,23 +140,23 @@
         }
       }
       .svg-form {
-        bottom: 0px;
-        height: 250px;
-        position: absolute;
-        right: 0;
-        width: 250px;
+        display: none;
         z-index: 1;
-        @media only screen and (min-width: 576px) {
-          bottom: -475px;
+        @media only screen and (min-width: 768px) {
+          display: block;
           height: 525px;
+          position: absolute;
+          right: 0;
+          top: -300px;
+          width: 250px;
         }
         @media only screen and (min-width: 1200px) {
-          height: 525px;
+          height: 650px;
         }
         @media only screen and (min-width: 1366px) {
-          bottom: -600px;
-          height: 800px;
+          height: 1000px;
           width: 300px;
+          top: -500px;
         }
       }
     }

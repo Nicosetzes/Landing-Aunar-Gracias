@@ -134,11 +134,11 @@ select {
   margin: 0 0 1rem 0;
 }
 .main .main__M1 {
-  margin: 6rem 0 0 0;
+  margin: 2rem 0 0 0;
 }
 @media only screen and (min-width: 576px) {
   .main .main__M1 {
-    margin: 3rem 0 0 0;
+    margin: 5rem 0 0 0;
   }
 }
 .main .main__M1 .M1__content-main {
@@ -150,6 +150,7 @@ select {
       -ms-flex-flow: column wrap;
           flex-flow: column wrap;
   margin: 0 0 4rem 0;
+  position: relative;
 }
 @media only screen and (min-width: 992px) {
   .main .main__M1 .M1__content-main {
@@ -248,29 +249,29 @@ select {
   }
 }
 .main .main__M1 .M1__content-main .svg-form {
-  bottom: 0px;
-  height: 250px;
-  position: absolute;
-  right: 0;
-  width: 250px;
+  display: none;
   z-index: 1;
 }
-@media only screen and (min-width: 576px) {
+@media only screen and (min-width: 768px) {
   .main .main__M1 .M1__content-main .svg-form {
-    bottom: -475px;
+    display: block;
     height: 525px;
+    position: absolute;
+    right: 0;
+    top: -300px;
+    width: 250px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .main .main__M1 .M1__content-main .svg-form {
-    height: 525px;
+    height: 650px;
   }
 }
 @media only screen and (min-width: 1366px) {
   .main .main__M1 .M1__content-main .svg-form {
-    bottom: -600px;
-    height: 800px;
+    height: 1000px;
     width: 300px;
+    top: -500px;
   }
 }
 .main .main__M1 .M1__content-footer {
