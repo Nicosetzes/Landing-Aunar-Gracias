@@ -12,9 +12,9 @@
       background-image: url("./../media/elipse-lg.png");
       min-height: 950px;
     }
-    @media only screen and (min-width: 1366px) {
-      background-image: url("./../media/elipse-xl.png");
-    }
+    // @media only screen and (min-width: 1366px) {
+    //   background-image: url("./../media/elipse-xl.png");
+    // }
     .hero__content-main {
       color: #fff;
       margin: auto;
@@ -137,26 +137,6 @@
             margin: 0;
             text-align: left;
           }
-        }
-      }
-      .svg-form {
-        display: none;
-        z-index: 1;
-        @media only screen and (min-width: 768px) {
-          display: block;
-          height: 525px;
-          position: absolute;
-          right: 0;
-          top: -300px;
-          width: 250px;
-        }
-        @media only screen and (min-width: 1200px) {
-          height: 650px;
-        }
-        @media only screen and (min-width: 1366px) {
-          height: 1000px;
-          width: 300px;
-          top: -500px;
         }
       }
     }
